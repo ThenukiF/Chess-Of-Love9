@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chess of Love</title>
+  <meta name="description" content="Embark on a whimsical journey of love and chess">
+  <link rel="icon" type="image/png" href="The sunflower.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Fredericka the Great', cursive;
+    }
+    /* Add any additional CSS styling for the <head> section here */
+  </style>
+  <script src="javascript.js" defer></script>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container">
+      <img src="The sunflower.png" alt="Logo" class="logo-image">
+      <h1 class="logo">Chess of Love</h1>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Quotes</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="riddle-container">
+    <div class="riddle-box">
+      <h2 class="riddle-title">Riddle 1</h2>
+      <p class="riddle-text">"Where love blooms, and memories dwell, start your journey, where stories tell."</p>
+    </div>
+  </div>    
+  <div class="container">
+    <h2 class="section-title">Memory Lane</h2>
+    <div class="memory-lane">
+        <div class="photos">
+          <div class="photo">
+            <img src="FirstDate.jpg" alt="Photo 1">
+            <div class="caption">Our First Date</div>
+          </div>
+          <div class="photo">
+            <img src="kiss.jpg" alt="Photo 2" style="height : 340px;">
+            <div class="caption">Adventures Together</div>
+          </div>
+          <div class="photo">
+            <img src="Laughter1.jpg" alt="Photo 3" style="height : 340px;" title="Riddle 2 : Look deep within our cherished memories, where laughter hides and love glimmers">
+            <div class="caption">Laughs and Love</div>
+          </div>                    
+          <div class="photo">
+            <img src="Tinyhand3.jpg" alt="Photo 4"  style="height : 340px;">
+            <div class="caption">Cherished Memories</div>
+          </div>
+          <div class="photo">
+            <img src="Huggies1.jpg" alt="Photo 5" style="height : 340px;">
+            <div class="caption">Quite Moments Together</div>
+          </div>
+          <div class="photo">
+            <img src="Date2.jpg" alt="Photo 6" style="height : 340px;">
+            <div class="caption">Dance The Night Away</div>
+          </div>
+          <div class="photo">
+            <img src="Adventures1.jpg" alt="Photo 7" style="height : 340px;">
+            <div class="caption">Exploring New Things</div>
+          </div>
+          <div class="photo">
+            <img src="Hickey.jpg" alt="Photo 8" style="height : 340px;">
+            <div class="caption">A Love Full Of Surprises</div>
+          </div>
+          <div class="photo">
+            <img src="Laughter2.jpg" alt="Photo 9" style="height : 340px;">
+            <div class="caption">Unexpected Hobbies</div>
+          </div>
+          <div class="photo">
+            <img src="Dream.jpg" alt="Photo 10" style="height : 340px;">
+            <div class="caption">Looking Forward To The Future</div>
+          </div>
+          <div class="photo">
+            <img src="Adventures2.jpg" alt="Photo 11" style="height : 340px;">
+            <div class="caption">Lets Ride</div>
+          </div>
+          <div class="photo">
+            <img src="Band.jpg" alt="Photo 12" style="height : 340px; width: 300px ;">
+            <div class="caption">Little Things, That Matters</div>
+          </div>
+        </div>
+    </div>
+  </div>
+  <div class="instructions">
+    <h2 class="chess-table">Baby X Chess</h2>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Follow the instructions like a GOOD BOY :  There is a pattern to this puzzle and selecing certain squares will reveal a part to my secret love letter…Once you have put together all the required &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pieces in the correct order, type it out and send it to me through WhatsApp, depending on the answer I will give you the assigned riddle.</p>
+  </div>
+  <table class="chessboard">
+    <tr>
+      <td></td><td>a</td><td>b</td><td>c</td><td>d</td><td>e</td><td>f</td><td>g</td><td>h</td>
+    </tr>
+    <tr>
+      <td>8</td><td id="a8"></td><td id="b8"></td><td id="c8"></td><td id="d8"></td><td id="e8"></td><td id="f8"></td><td id="g8"></td><td id="h8"></td>
+    </tr>
+    <tr>
+      <td>7</td><td id="a7"></td><td id="b7"></td><td id="c7"></td><td id="d7"></td><td id="e7"></td><td id="f7"></td><td id="g7"></td><td id="h7"></td>
+    </tr>
+    <tr>
+      <td>6</td><td id="a6"></td><td id="b6"></td><td id="c6"></td><td id="d6"></td><td id="e6"></td><td id="f6"></td><td id="g6"></td><td id="h6"></td>
+    </tr>
+    <tr>
+      <td>5</td><td id="a5"></td><td id="b5"></td><td id="c5"></td><td id="d5"></td><td id="e5"></td><td id="f5"></td><td id="g5"></td><td id="h5"></td>
+    </tr>
+    <tr>
+      <td>4</td><td id="a4"></td><td id="b4"></td><td id="c4"></td><td id="d4"></td><td id="e4"></td><td id="f4"></td><td id="g4"></td><td id="h4"></td>
+    </tr>
+    <tr>
+      <td>3</td><td id="a3"></td><td id="b3"></td><td id="c3"></td><td id="d3"></td><td id="e3"></td><td id="f3"></td><td id="g3"></td><td id="h3"></td>
+    </tr>
+    <tr>
+      <td>2</td><td id="a2"></td><td id="b2"></td><td id="c2"></td><td id="d2"></td><td id="e2"></td><td id="f2"></td><td id="g2"></td><td id="h2"></td>
+    </tr>
+    <tr>
+      <td>1</td><td id="a1"></td><td id="b1"></td><td id="c1"></td><td id="d1"></td><td id="e1"></td><td id="f1"></td><td id="g1"></td><td id="h1"></td>
+    </tr>
+  </table>
+    <div id="loveLetter"></div>    
+    <div class="container2">
+      <h2 class="section-title2">Its Brianstorm Time !!! If You Answer Even 1 wrong I will Pew Pew You...</h2>
+      <div class="questions">
+        <div class="question">
+          <p>1. Where did we take our first mirror selfie?</p>
+          <input type="text" id="answer1">
+        </div>
+      </div>
+      <div class="questions">
+        <div class="question">
+          <p>2. What did I drink after returning from that natural park?</p>
+          <input type="text" id="answer2">
+        </div>
+      </div>
+      <div class="questions">
+        <div class="question">
+          <p>3. What color was my shirt that I wore on the day that you gave me a hickey for the first time?</p>
+          <input type="text" id="answer3">
+        </div>
+      </div>
+      <div class="questions">
+        <div class="question">
+          <p>4. Where were we going when Viduni took that picture of us holding hands?</p>
+          <input type="text" id="answer4">
+        </div>
+      </div>
+      <div class="questions">
+        <div class="question">
+          <p>5. What is the floor that we usually go to when we have free time?</p>
+          <input type="text" id="answer5">
+        </div>
+      </div>
+      <div class="questions">
+        <div class="question">
+          <p>6. Did I have my hair up the day that we had the christmas party?</p>
+          <input type="text" id="answer6">
+        </div>
+      </div>
+      <div class="questions">
+        <div class="question">
+          <p>7. What was the weather like on the day tthat we went to the temple EX: Sunny, Cloudy, Rainy</p>
+          <input type="text" id="answer7">
+        </div>
+      </div>
+      <div class="questions">
+        <div class="question">
+          <p>8. Whats my favourite kinds of colors on you Ex: Dark, Light?</p>
+          <input type="text" id="answer8">
+        </div>
+      </div>
+      <div class="questions">
+        <div class="question">
+          <p>9. Whats our favourite hobby?</p>
+          <input type="text" id="answer9">
+        </div>
+      </div>
+      <div class="questions">
+        <div class="question">
+          <p>10. If I am a sunflower, who are you?</p>
+          <input type="text" id="answer10">
+        </div>
+      </div>
+      <div class="questions">
+        <div class="question">
+          <p>11. What was the brand name of the bicycles that we rode that day?</p>
+          <input type="text" id="answer11">
+        </div>
+      </div>
+      <div class="questions">
+        <div class="question">
+          <p>12. From where did we buy the hair tie that you wear?</p>
+          <input type="text" id="answer12">
+        </div>
+      </div>
+      <p>BTW...Maybe, If you used your BIG BRAIN a little, You would have gotten it right already..I may have given you a hint ; )</p>
+      <p>PS: This is extremely case sensitive, if the answer is a two word answer, ensure that both words' starting letter is capital.</p>
+      <button onclick="checkAnswers()">Here Goes Nothing</button>
+      <div class="smile-collection hidden">
+        <h2 class="section-title3">"ITS THE SPECIAL EDITION CUTE SMILEY PICS..."</h2>
+        <div class="photos2">
+          <!-- Add smiling pictures here -->
+          <img src="Cheese1.jpg" alt="Smile 1" style="height : 340px; width: 280px ;">
+          <img src="Cheese2.jpg" alt="Smile 2"style="height : 340px; width: 280px ;">
+          <img src="Cheese3.jpg" alt="Smile 3"style="height : 340px; width: 280px ;">
+          <img src="Cheese4.jpg" alt="Smile 4"style="height : 340px; width: 280px ;">
+          <img src="Cheese5.jpg" alt="Smile 5"style="height : 340px; width: 280px ;">
+          <img src="Cheese6.jpg" alt="Smile 6"style="height : 340px; width: 280px ;">
+          <!-- Add more smiling pictures as needed -->
+        </div>
+      </div>
+    </div>
+    <h2 class="section-title4">UH..Missing Something..?, Might Aswell Try Some Good Music...</h2>   
+    <div class="spotify-playlist">
+      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/6HJvpqodmkdCnnWcDv1QQW?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    </div> 
+    <div class="container2">
+      <h2 class="section-title2">Guess the Key Songs</h2>
+      <form id="song-guess-form">
+          <div class="questions">
+              <div class="question">
+                  <label for="song1">Song 1: </label>
+                  <input type="text" id="song1" name="song1"placeholder="Enter Song Title">
+              </div>
+          </div>
+          <div class="questions">
+              <div class="question">
+                  <label for="song2">Song 2: </label>
+                  <input type="text" id="song2" name="song2"placeholder="Enter Song Title">
+              </div>
+          </div>
+          <div class="questions">
+              <div class="question">
+                  <label for="song3">Song 3: </label>
+                  <input type="text" id="song3" name="song3"placeholder="A Song That Makes You Feel Enchanted">
+              </div>
+          </div>
+          <button type="button" id="submit-btn">Submit</button>
+      </form>
+  </div>  
+  <div id="message-box" style="display: none;">
+    <div class="congrats-message">
+        Congratulations! You've guessed the key songs correctly!
+    </div>
+    <div class="hint-message">
+      You're getting closer to uncovering the next clue. Keep an eye on the bottom of the page for the special surprise...
+    </div>
+</div>
+</div>
+      </body>
+      <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>Chess Of Love</h3>
+                </div>
+                <div class="footer-links">
+                    <!-- Links to other sections/pages -->
+                    <ul>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="about.html" id="unlock-link" style="display: none;">Unlock the story of us</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact.html">Quotes</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <!-- Social media icons -->
+                    <ul>
+                        <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fab fa-pinterest"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-text">
+                <!-- Your copyright text or additional information -->
+                <p>&copy; 2024 Chess Of love. All rights reserved.</p>
+                <p>Designed with ❤ by Your Precious Little Pretty Plushie Jam Filled Marshmallow Princess Cheese Puff</p>
+            </div>
+        </div>
+    </footer>
+    
